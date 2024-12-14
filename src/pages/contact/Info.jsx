@@ -1,4 +1,5 @@
 import { AiOutlineMail } from "react-icons/ai";
+import { CiLocationOn, CiMobile4 } from "react-icons/ci";
 import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram, FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -21,7 +22,7 @@ const Info = () => {
             </div>
             <div className="flex items-center space-x-3 ">
                <div className="text-3xl bg-gradient-to-r from-[#0b1800] to-[#0a0009] rounded-md p-3 border border-blue-950">
-                  <AiOutlineMail />
+                  <CiMobile4 />
                </div>
                <div>
                   <h4 className="font-semibold text-[#06b1b1] uppercase">Mobile :</h4>
@@ -30,7 +31,7 @@ const Info = () => {
             </div>
             <div className="flex items-center space-x-3 ">
                <div className="text-3xl bg-gradient-to-r from-[#0b1800] to-[#0a0009] rounded-md p-3 border border-blue-950">
-                  <AiOutlineMail />
+                  <CiLocationOn />
                </div>
                <div>
                   <h4 className="font-semibold text-[#06b1b1] uppercase">location :</h4>

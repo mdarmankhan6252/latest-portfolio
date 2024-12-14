@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import project_1 from '../../assets/project/project_1.png';
 import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 
@@ -22,16 +21,17 @@ const Projects = () => {
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: project_1,
+         image: "https://i.ibb.co.com/f8Gh9H3/1.png",
+
       },
       {
          id: 2,
-         title: "Global Vista 2",
-         description: "Newspaper 2",
+         title: "Foody",
+         description: "Restaurant",
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: project_1,
+         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
       },
       {
          id: 3,
@@ -40,7 +40,7 @@ const Projects = () => {
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: project_1,
+         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
       },
       {
          id: 4,
@@ -49,7 +49,7 @@ const Projects = () => {
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: project_1,
+         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
       },
    ];
 
