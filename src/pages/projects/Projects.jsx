@@ -35,12 +35,12 @@ const Projects = () => {
       },
       {
          id: 3,
-         title: "Global Vista 3",
-         description: "Newspaper 3",
+         title: "Car-Hire",
+         description: "Car-Hiring",
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
+         image: "https://i.ibb.co.com/RPvBsbR/nnn.png",
       },
       {
          id: 4,
