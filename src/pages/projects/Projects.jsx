@@ -16,6 +16,25 @@ const Projects = () => {
    const projects = [
       {
          id: 1,
+         title: "Foody",
+         description: "Restaurant",
+         link: "https://foody-a1e92.web.app",
+         clientRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-client",
+         serverRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-server",
+         image: "https://iili.io/2NT11aV.png",
+      },
+
+      {
+         id: 2,
+         title: "Car-Hire",
+         description: "Car-Hiring",
+         link: "https://car-hire-3831c.web.app",
+         clientRepo: "https://github.com/mdarmankhan6252/car-hiring-website-client",
+         serverRepo: "https://github.com/mdarmankhan6252/car-hiring-website-server",
+         image: "https://iili.io/2N77TWg.png",
+      },
+      {
+         id: 3,
          title: "Global Vista",
          description: "Newspaper",
          link: "https://newspaper-9a908.web.app",
@@ -25,31 +44,13 @@ const Projects = () => {
 
       },
       {
-         id: 2,
-         title: "Foody",
-         description: "Restaurant",
-         link: "https://newspaper-9a908.web.app",
-         clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
-         serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
-      },
-      {
-         id: 3,
-         title: "Car-Hire",
-         description: "Car-Hiring",
-         link: "https://newspaper-9a908.web.app",
-         clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
-         serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: "https://i.ibb.co.com/RPvBsbR/nnn.png",
-      },
-      {
          id: 4,
-         title: "Global Vista 4",
-         description: "Newspaper 4",
-         link: "https://newspaper-9a908.web.app",
-         clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
-         serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: "https://i.ibb.co.com/FX48KjN/photo-1.png",
+         title: "Portfolio",
+         description: "My Portfolio website",
+         link: "https://mdarmankhan6252.vercel.app",
+         clientRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
+         serverRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
+         image: "https://iili.io/2N7Mqge.png",
       },
    ];
 
@@ -74,11 +75,10 @@ const Projects = () => {
                   <img
                      src={project.image}
                      alt={project.title}
-                     className={`w-full rounded-md transition-all duration-700 ease-linear ${
-                        hoveredCard === project.id
-                           ? "animate-scroll-down"
-                           : "animate-scroll-up"
-                     }`}
+                     className={`w-full rounded-md transition-all duration-700 ease-linear ${hoveredCard === project.id
+                        ? "animate-scroll-down"
+                        : "animate-scroll-up"
+                        }`}
                      style={{
                         height: "1000px", // Simulate the long image height
                      }}
