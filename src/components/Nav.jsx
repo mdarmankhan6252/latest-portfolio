@@ -15,7 +15,7 @@ const Nav = () => {
                <NavLink to='/projects'>Projects</NavLink>
                <NavLink to='/contact'>Contact</NavLink>
             </ul>
-            <Link target="_blank" to='https://drive.google.com/file/d/1CgyUfOgHKh5-LVqf6pBVUSFeCTVbKyHg/view?usp=sharing' className="text-[#06b1b1] font-semibold text-lg border border-blue-950 px-4 py-1 rounded-xl hover:bg-[#06b1b1] hover:text-white duration-300">Resume</Link>
+            <Link target="_blank" to='https://drive.google.com/file/d/1KYJlY_AYlomo2eyHTsyUvfV-1OhlDf7r/view?usp=sharing' className="text-[#06b1b1] font-semibold text-lg border border-blue-950 px-4 py-1 rounded-xl hover:bg-[#06b1b1] hover:text-white duration-300">Resume</Link>
 
          </div>
 
