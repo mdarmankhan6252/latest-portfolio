@@ -68,15 +68,7 @@ const About = () => {
          <div className="bg-gradient-to-l from-[#11000f] via-[#060c00] to-[#03000a] rounded-xl shadow-[0px_0px_10px_0] shadow-[#211229] p-6 border border-blue-950">
             <h2 className="text-2xl font-semibold text-[#06b1b1] pb-6">Language Skills</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
-               <div>
-                  <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
-                     <img src={tailwind} alt="" className='w-16' />
-                     <div>
-                        <h4 className='text-[17px] font-semibold '>Tailwind CSS</h4>
-                        <h4 className='text-gray-200 font-semibold'>Expert</h4>
-                     </div>
-                  </div>
-               </div>
+               
                <div>
                   <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
                      <img src={js} alt="" className='w-16' />
@@ -119,6 +111,15 @@ const About = () => {
                      <div>
                         <h4 className='text-[17px] font-semibold '>Node JS</h4>
                         <h4 className='text-gray-200 font-semibold'>Beginner</h4>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
+                     <img src={tailwind} alt="" className='w-16' />
+                     <div>
+                        <h4 className='text-[17px] font-semibold '>Tailwind CSS</h4>
+                        <h4 className='text-gray-200 font-semibold'>Expert</h4>
                      </div>
                   </div>
                </div>
