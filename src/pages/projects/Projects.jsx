@@ -50,7 +50,7 @@ const Projects = () => {
          link: "https://mdarmankhan6252.vercel.app",
          clientRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
          serverRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
-         image: "https://iili.io/2N7Mqge.png",
+         image: "https://iili.io/2NT11aV.png",
       },
    ];
 
