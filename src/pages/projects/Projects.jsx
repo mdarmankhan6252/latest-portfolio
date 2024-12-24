@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
+import img_1 from '../../assets/project/foody.png'
+import img_2 from '../../assets/project/car-hire.png'
+import img_3 from '../../assets/project/vista.png'
+import img_4 from '../../assets/project/sity.png'
+
 
 const Projects = () => {
    const [hoveredCard, setHoveredCard] = useState(null);
@@ -21,7 +26,7 @@ const Projects = () => {
          link: "https://foody-a1e92.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-client",
          serverRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-server",
-         image: "https://iili.io/2NT11aV.png",
+         image: img_1,
       },
 
       {
@@ -31,7 +36,7 @@ const Projects = () => {
          link: "https://car-hire-3831c.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/car-hiring-website-client",
          serverRepo: "https://github.com/mdarmankhan6252/car-hiring-website-server",
-         image: "https://iili.io/2N77TWg.png",
+         image: img_2,
       },
       {
          id: 3,
@@ -40,17 +45,17 @@ const Projects = () => {
          link: "https://newspaper-9a908.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
-         image: "https://i.ibb.co.com/f8Gh9H3/1.png",
+         image: img_3,
 
       },
       {
          id: 4,
-         title: "Portfolio",
-         description: "My Portfolio website",
-         link: "https://mdarmankhan6252.vercel.app",
-         clientRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
-         serverRepo: "https://github.com/mdarmankhan6252/latest-portfolio",
-         image: "https://iili.io/2NT11aV.png",
+         title: "EduSity",
+         description: "University management website.",
+         link: "https://edusity-arman.netlify.app",
+         clientRepo: "https://github.com/mdarmankhan6252/eduSity",
+         serverRepo: "https://github.com/mdarmankhan6252/eduSity",
+         image: img_4,
       },
    ];
 
