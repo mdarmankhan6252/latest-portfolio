@@ -5,6 +5,9 @@ import express from '../../assets/photo/express.png'
 import js from '../../assets/photo/js.jpg'
 import nodejs from '../../assets/photo/nodejs.png'
 import mongodb from '../../assets/photo/mongodb.png'
+import firebase from '../../assets/photo/firebase.svg'
+import tanstack from '../../assets/photo/tanstack.png'
+import axios from '../../assets/photo/axios.svg'
 import { Link } from 'react-router-dom'
 import { GiSoundOff, GiSoundOn } from 'react-icons/gi'
 import { useState } from 'react'
@@ -123,7 +126,33 @@ const About = () => {
                      </div>
                   </div>
                </div>
-
+               <div>
+                  <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
+                     <img src={firebase} alt="" className='w-16' />
+                     <div>
+                        <h4 className='text-[17px] font-semibold '>Firebase</h4>
+                        <h4 className='text-gray-200 font-semibold'>Expert</h4>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] py-3.5 px-2 justify-center rounded-xl border border-[#06b1b1]'>
+                     <img src={axios} alt="" className='w-16' />
+                     <div>
+                        <h4 className='text-[17px] font-semibold '>Axios</h4>
+                        <h4 className='text-gray-200 font-semibold'>Expert</h4>
+                     </div>
+                  </div>
+               </div>
+               <div className='col-span-2 lg:col-span-1'>
+                  <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
+                     <img src={tanstack} alt="" className='w-16' />
+                     <div>
+                        <h4 className='text-[17px] font-semibold '>Tanstack Query</h4>
+                        <h4 className='text-gray-200 font-semibold'>Expert</h4>
+                     </div>
+                  </div>
+               </div>
             </div>
             <div className='w-full my-6'>
                <div className='flex items-center space-x-3 bg-gradient-to-r from-[#025353] to-[#057575] p-2 justify-center rounded-xl border border-[#06b1b1]'>
