@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import light_1 from '../assets/light-1.png'
+import light_2 from '../assets/light-2.png'
 
 const Root = () => {
    return (
@@ -13,6 +15,8 @@ const Root = () => {
             <Footer />
          </div>
 
+         <img src={light_1} alt="" className="absolute left-0 top-0 opacity-50 w-[400px] hidden 2xl:inline-block" />
+         <img src={light_2} alt="" className="absolute right-0 top-0 opacity-50 w-[400px] hidden 2xl:inline-block" />
       </div>
    );
 };
