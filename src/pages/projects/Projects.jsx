@@ -5,6 +5,8 @@ import img_1 from '../../assets/project/foody.png'
 import img_2 from '../../assets/project/car-hire.png'
 import img_3 from '../../assets/project/vista.png'
 import img_4 from '../../assets/project/sity.png'
+import img_5 from '../../assets/project/img_5.png'
+
 
 
 const Projects = () => {
@@ -56,6 +58,15 @@ const Projects = () => {
          clientRepo: "https://github.com/mdarmankhan6252/eduSity",
          serverRepo: "https://github.com/mdarmankhan6252/eduSity",
          image: img_4,
+      },
+      {
+         id: 5,
+         title: "Byte-blaze",
+         description: "Blog Website",
+         link: "https://byte-blaze.netlify.app",
+         clientRepo: "https://github.com/mdarmankhan6252/ByteBlaze",
+         serverRepo: "https://github.com/mdarmankhan6252/ByteBlaze",
+         image: img_5,
       },
    ];
 
