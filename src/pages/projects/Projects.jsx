@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
+import gu from '../../assets/project/gu.png'
 import img_1 from '../../assets/project/foody.png'
 import img_2 from '../../assets/project/car-hire.png'
 import img_3 from '../../assets/project/vista.png'
@@ -23,6 +24,15 @@ const Projects = () => {
    const projects = [
       {
          id: 1,
+         title: "Greenfield University",
+         description: "University management website.",
+         link: "https://greenfield-university.netlify.app/",
+         clientRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-client",
+         serverRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-server",
+         image: gu,
+      },
+      {
+         id: 2,
          title: "Foody",
          description: "Restaurant",
          link: "https://foody-a1e92.web.app",
@@ -32,7 +42,7 @@ const Projects = () => {
       },
 
       {
-         id: 2,
+         id: 3,
          title: "Car-Hire",
          description: "Car-Hiring",
          link: "https://car-hire-3831c.web.app",
@@ -41,7 +51,7 @@ const Projects = () => {
          image: img_2,
       },
       {
-         id: 3,
+         id: 4,
          title: "Global Vista",
          description: "Newspaper",
          link: "https://newspaper-9a908.web.app",
@@ -51,7 +61,7 @@ const Projects = () => {
 
       },
       {
-         id: 4,
+         id: 5,
          title: "EduSity",
          description: "University management website.",
          link: "https://edusity-arman.netlify.app",
@@ -60,7 +70,7 @@ const Projects = () => {
          image: img_4,
       },
       {
-         id: 5,
+         id: 6,
          title: "Byte-blaze",
          description: "Blog Website",
          link: "https://byte-blaze.netlify.app",
