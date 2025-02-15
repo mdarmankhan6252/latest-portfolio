@@ -1,14 +1,12 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
-import gu from '../../assets/project/gu.png'
-import img_1 from '../../assets/project/foody.png'
-import img_2 from '../../assets/project/car-hire.png'
-import img_3 from '../../assets/project/vista.png'
-import img_4 from '../../assets/project/sity.png'
-import img_5 from '../../assets/project/img_5.png'
-
-
+import gu from '../../assets/project/gu.png';
+import img_1 from '../../assets/project/foody.png';
+import img_2 from '../../assets/project/car-hire.png';
+import img_3 from '../../assets/project/vista.png';
+import img_4 from '../../assets/project/sity.png';
+import img_5 from '../../assets/project/img_5.png';
 
 const Projects = () => {
    const [hoveredCard, setHoveredCard] = useState(null);
@@ -27,20 +25,19 @@ const Projects = () => {
          title: "Greenfield University",
          description: "University management website.",
          link: "https://greenfield-university.netlify.app/",
-         clientRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-client",
-         serverRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-server",
+         clientRepo: "https://github.com/Yamin39/greenfield-university-client",
+         serverRepo: "https://github.com/Yamin39/greenfield-university-server",
          image: gu,
       },
       {
          id: 2,
-         title: "Foody",
+         title: "Foodie",
          description: "Restaurant",
          link: "https://foody-a1e92.web.app",
          clientRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-client",
          serverRepo: "https://github.com/mdarmankhan6252/foody-restaurant-website-server",
          image: img_1,
       },
-
       {
          id: 3,
          title: "Car-Hire",
@@ -58,11 +55,10 @@ const Projects = () => {
          clientRepo: "https://github.com/mdarmankhan6252/newspaper-client",
          serverRepo: "https://github.com/mdarmankhan6252/newspaper-server",
          image: img_3,
-
       },
       {
          id: 5,
-         title: "EduSity",
+         title: "EduCity",
          description: "University management website.",
          link: "https://edusity-arman.netlify.app",
          clientRepo: "https://github.com/mdarmankhan6252/eduSity",
@@ -81,7 +77,7 @@ const Projects = () => {
    ];
 
    return (
-      <div className="py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      <div className="py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
          {projects.map((project) => (
             <Link
                key={project.id}
@@ -103,10 +99,11 @@ const Projects = () => {
                      alt={project.title}
                      className={`w-full rounded-md transition-all duration-700 ease-linear ${hoveredCard === project.id
                         ? "animate-scroll-down"
-                        : "animate-scroll-up"
+                        : ""
                         }`}
                      style={{
-                        height: "1000px", // Simulate the long image height
+                        height: "auto", // Adjusted image height to fit within the container
+                        transform: hoveredCard === project.id ? "translateY(0)" : "translateY(0)",
                      }}
                   />
                </div>
@@ -144,25 +141,12 @@ const Projects = () => {
                      transform: translateY(0);
                   }
                   100% {
-                     transform: translateY(-940px); /* Scrolls the image completely */
-                  }
-               }
-
-               @keyframes scroll-up {
-                  0% {
-                     transform: translateY(-940px);
-                  }
-                  100% {
-                     transform: translateY(0);
+                     transform: translateY(-100%);
                   }
                }
 
                .animate-scroll-down {
                   animation: scroll-down 10s linear infinite;
-               }
-
-               .animate-scroll-up {
-                  animation: scroll-up 0.3s linear forwards;
                }
             `}
          </style>
