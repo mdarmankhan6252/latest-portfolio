@@ -174,7 +174,7 @@ const About = () => {
                <h2 className="text-2xl font-semibold text-[#06b1b1]">Educational Qualification</h2>
                <p className="text-[15px] font-semibold leading-7  text-gray-300 ">2023 - Running</p>
                <p className="text-[15px] font-semibold leading-7  ">Bachelor of Business Administration</p>
-               <p className="text-[15px] font-semibold leading-7  text-gray-300">University Of Barishal</p>
+               <p className="text-[15px] font-semibold leading-7  text-gray-300"><Link to='https://bu.ac.bd'>University Of Barishal</Link></p>
 
             </div>
 
@@ -188,19 +188,14 @@ const About = () => {
                <div>
                   <p className="text-[15px] font-semibold leading-7  text-gray-300 ">2024 - 2024</p>
                   <p className="text-[15px] font-semibold leading-7 py-1 ">Full Stack Web Development.</p>
-                  <Link to='/' className="text-[15px] font-semibold leading-7  text-[#1ac8c8] hover:underline">See Certificate</Link>
+                  <Link target='_blank' to='https://drive.google.com/file/d/1vpxFgLb-danhz9d5igho96PXIEjVCi6W/view?usp=sharing' className="text-[15px] font-semibold leading-7  text-[#1ac8c8] hover:underline">See Certificate</Link>
                </div>
-               <hr className='my-4 bg-[#1ac8c8]' />
-               <div className='mt-5'>
-                  <p className="text-[15px] font-semibold leading-7  text-gray-300 ">2024 - 2024</p>
-                  <p className="text-[15px] font-semibold leading-7 py-1 ">Advance Front End Web Design.</p>
-                  <Link to='/' className="text-[15px] font-semibold leading-7  text-[#1ac8c8] hover:underline">See Certificate</Link>
-               </div>
+               
                <hr className='my-4 bg-[#1ac8c8]' />
                <div className='mt-5'>
                   <p className="text-[15px] font-semibold leading-7  text-gray-300 ">2024 - 2024</p>
                   <p className="text-[15px] font-semibold leading-7 py-1 ">Web Design BootCamp.</p>
-                  <Link to='/' className="text-[15px] font-semibold leading-7  text-[#1ac8c8] hover:underline">See Certificate</Link>
+                  <Link target='_blank' to='https://drive.google.com/file/d/1Joko70Psp1YMKRlskcr1N0nJaH4D1IWR/view?usp=sharing' className="text-[15px] font-semibold leading-7  text-[#1ac8c8] hover:underline">See Certificate</Link>
                </div>
 
             </div>
