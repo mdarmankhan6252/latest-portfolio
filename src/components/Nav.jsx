@@ -6,7 +6,7 @@ import { SlNotebook } from "react-icons/sl";
 
 const Nav = () => {
    return (
-      <nav className="relative z-10">         
+      <nav className="relative">         
          
          {/* top side nav bar */}
          <div className="items-center justify-between p-6 border border-blue-950 rounded-xl bg-gradient-to-l from-[#22001f] via-[#081200] to-[#0b0120] flex">
