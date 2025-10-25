@@ -1,3 +1,4 @@
+
 import { Link, NavLink } from "react-router-dom";
 import logo from '../assets/logo.png'
 import { IoHome } from "react-icons/io5";
@@ -6,18 +7,23 @@ import { SlNotebook } from "react-icons/sl";
 
 const Nav = () => {
    return (
-      <nav className="relative">         
-         
+      <nav className="relative">
+
          {/* top side nav bar */}
-         <div className="items-center justify-between p-6 border border-blue-950 rounded-xl bg-gradient-to-l from-[#22001f] via-[#081200] to-[#0b0120] flex">
+         <div className="items-center justify-between px-6 py-4 border border-blue-950 rounded-xl bg-gradient-to-l from-[#22001f] via-[#081200] to-[#0b0120] flex">
             <Link to='/'><img src={logo} alt="logo" className="w-10" /></Link>
             <ul className="text-[15px] space-x-6 text-[#d3d1e7] font-bold hidden sm:block">
                <NavLink to='/'>Home</NavLink>
                <NavLink to='/projects'>Projects</NavLink>
                <NavLink to='/contact'>Contact</NavLink>
             </ul>
-            <Link target="_blank" to='https://drive.google.com/file/d/1KYJlY_AYlomo2eyHTsyUvfV-1OhlDf7r/view?usp=sharing' className="text-[#06b1b1] font-semibold text-lg border border-blue-950 px-4 py-1 rounded-xl hover:bg-[#06b1b1] hover:text-white duration-300">Resume</Link>
-
+            <Link
+  target="_blank"
+  to="https://drive.google.com/file/d/1KYJlY_AYlomo2eyHTsyUvfV-1OhlDf7r/view?usp=sharing"
+  className="text-[#06b1b1] font-semibold text-base border border-blue-950 px-3 py-[2px] rounded-lg hover:bg-[#06b1b1] hover:text-white duration-300 animate-text-glow"
+>
+  Resume
+</Link>
          </div>
 
          {/* bottom side nav bar */}

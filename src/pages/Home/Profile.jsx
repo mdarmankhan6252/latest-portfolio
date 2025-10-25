@@ -7,7 +7,7 @@ const Profile = () => {
 return (
    <div className='bg-gradient-to-l from-[#0a0009] via-[#0b1800] to-[#03000a] rounded-xl shadow-[0px_0px_10px_0] shadow-[#211229] border border-blue-950'>
       <div className='flex items-center justify-center py-4 '>
-         <img src={profile} alt="profile_img" className='w-32 h-32 rounded-full object-cover m-4 p-1 from-pink-800 via-purple-700 to-green-700 bg-gradient-to-r' />
+         <img src={profile} alt="profile_img" className='w-32 h-32 rounded-full object-cover m-4 p-0.5 from-pink-800 via-purple-700 to-green-700 bg-gradient-to-r' />
       </div>
       <div className='text-center space-y-2 '>
          <h2 className='text-2xl font-serif'>MD Arman Khan</h2>
@@ -18,7 +18,7 @@ return (
             I am a {' '}
             <span style={{ color: '#06b1b1', }}>
                <Typewriter
-                  words={['Front-end Web developer', 'React Developer', 'Junior MERN Stack Developer', 'Web Developer']}
+                  words={['Full Stack Developer', 'MERN Stack Developer', 'Next.js Developer', 'Node.js Developer']}
                   loop={5}
                   cursor
                   cursorStyle='|'
