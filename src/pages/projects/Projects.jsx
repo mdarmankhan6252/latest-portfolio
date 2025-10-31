@@ -7,6 +7,7 @@ import img_2 from '../../assets/project/car-hire.png';
 import img_3 from '../../assets/project/vista.png';
 import img_4 from '../../assets/project/sity.png';
 import img_5 from '../../assets/project/img_5.png';
+import img_6 from '../../assets/project/3d.png';
 
 const Projects = () => {
    const [hoveredCard, setHoveredCard] = useState(null);
@@ -73,6 +74,15 @@ const Projects = () => {
          clientRepo: "https://github.com/mdarmankhan6252/ByteBlaze",
          serverRepo: "https://github.com/mdarmankhan6252/ByteBlaze",
          image: img_5,
+      },
+      {
+         id: 7,
+         title: "3D Animation Website",
+         description: "3D & Animation",
+         link: "https://3d-project-app.vercel.app/",
+         clientRepo: "https://github.com/mdarmankhan6252/3d-animation-app?tab=readme-ov-file",
+         serverRepo: "https://github.com/mdarmankhan6252/3d-animation-app?tab=readme-ov-file",
+         image: img_6,
       },
    ];
 
